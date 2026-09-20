@@ -123,13 +123,25 @@ document.addEventListener('DOMContentLoaded', () => {
       const item = header.parentElement;
       const isOpen = item.classList.contains('active');
 
-      // Close other accordions
-      document.querySelectorAll('.accordion-item').forEach(acc => acc.classList.remove('active'));
-
       if (!isOpen) {
         item.classList.add('active');
       }
     });
+  });
+
+  /* ——— ANTI-INSPECT & COPY PROTECTION SCRIPT ——— */
+  // Disable Right-Click Context Menu
+  document.addEventListener('contextmenu', e => e.preventDefault());
+
+  // Disable F12, Ctrl+U (View Source), Ctrl+S (Save Page), Ctrl+Shift+I, Ctrl+Shift+C (Inspect)
+  document.addEventListener('keydown', e => {
+    if (
+      e.keyCode === 123 || 
+      (e.ctrlKey && (e.keyCode === 85 || e.keyCode === 83)) || 
+      (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 67))
+    ) {
+      e.preventDefault();
+    }
   });
 
 });
