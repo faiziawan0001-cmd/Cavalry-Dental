@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cavalry Dental Care Lahore — Best Dentist in Cavalry Ground | Dr. Ehsan Ul Haq</title>
+  <meta name="description" content="Cavalry Dental Care in Cavalry Ground, Lahore offers painless, high-tech dental care & smile design. Led by Lt. Col. Dr. Ehsan Ul Haq & Dr. Taabir Ehsan. 4.9★ rated. Book your appointment today." />
+  <meta name="keywords" content="best dentist Lahore, dentist Cavalry Ground, Cavalry Dental Care, dental implants Lahore, smile makeover Lahore, Dr Ehsan Ul Haq, root canal Lahore" />
+  <meta property="og:title" content="Cavalry Dental Care Lahore — Premium Dental Care & Aesthetics" />
+  <meta property="og:description" content="Painless, high-tech dental care in Cavalry Ground, Lahore. 4.9★ rated. Book your consultation now." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--gray-900);
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('assets/cavalry%20photo.jfif');
+      background-size: cover;
+      background-position: center;
+      opacity: .28;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg,
+        rgba(11,20,30,.92) 0%,
+        rgba(13,148,136,.45) 60%,
+        rgba(15,118,110,.6) 100%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 720px;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,.12);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,.2);
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: .82rem;
+      font-weight: 600;
+      margin-bottom: 28px;
+      letter-spacing: .04em;
+    }
+    .hero-badge .dot {
+      width: 8px; height: 8px;
+      background: #10b981;
+      border-radius: 50%;
+      animation: pulse 1.5s infinite;
+    }
+    .hero h1 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: clamp(2.4rem, 5.5vw, 4rem);
+    }
+    .hero h1 span { color: var(--teal-light); }
+    .hero .hero-sub {
+      color: rgba(255,255,255,.8);
+      font-size: 1.15rem;
+      max-width: 540px;
+      margin-bottom: 36px;
+      line-height: 1.7;
+    }
+    .hero-btns {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 56px;
+    }
+    .hero-trust {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .hero-trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255,255,255,.85);
+      font-size: .9rem;
+    }
+    .hero-trust-item i { color: var(--teal-light); font-size: 1.1rem; }
+
+    .hero-float {
+      position: absolute;
+      right: 60px; top: 50%;
+      transform: translateY(-50%);
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .scroll-cue {
+      position: absolute;
+      bottom: 36px; left: 50%;
+      transform: translateX(-50%);
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,.5);
+      font-size: .75rem;
+      letter-spacing: .1em;
+    }
+    .scroll-cue-line {
+      width: 2px; height: 40px;
+      background: linear-gradient(to bottom, rgba(255,255,255,.5), transparent);
+      animation: scrollLine 1.8s infinite;
+    }
+    @keyframes scrollLine {
+      0%   { height: 0; opacity: 1; }
+      100% { height: 40px; opacity: 0; }
+    }
+    .hero-stat-card {
+      background: rgba(255,255,255,.95);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 20px 24px;
+      min-width: 200px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.25);
+      animation: float 4s ease-in-out infinite;
+    }
+    .hero-stat-card:nth-child(2) { animation-delay: .8s; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-10px); }
+    }
+    .hero-stat-card .card-label { font-size: .78rem; font-weight: 600; color: var(--gray-400); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 6px; }
+    .hero-stat-card .card-value { font-size: 1.7rem; font-weight: 800; color: var(--gray-900); line-height: 1; font-family: 'Playfair Display', serif; }
+    .hero-stat-card .card-stars { color: var(--gold); font-size: .95rem; margin-top: 4px; }
+    .hero-stat-card .card-sub { font-size: .8rem; color: var(--gray-600); margin-top: 4px; }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .intro-img-wrap { position: relative; }
+    .intro-img-wrap img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+    }
+    .intro-badge-float {
+      position: absolute;
+      bottom: -20px; right: -20px;
+      background: var(--teal);
+      color: #fff;
+      border-radius: 16px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow-teal);
+      text-align: center;
+      min-width: 130px;
+    }
+    .intro-badge-float .num { font-size: 2rem; font-weight: 800; display: block; font-family: 'Playfair Display', serif; }
+    .intro-badge-float .txt { font-size: .78rem; opacity: .9; }
+    .intro-features { display: flex; flex-direction: column; gap: 16px; margin: 28px 0 36px; }
+    .intro-feature { display: flex; gap: 14px; align-items: flex-start; }
+    .intro-feature-icon {
+      width: 42px; height: 42px;
+      border-radius: 10px;
+      background: var(--teal-bg);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--teal);
+      font-size: 1rem; flex-shrink: 0; margin-top: 2px;
+    }
+    .intro-feature h4 { margin-bottom: 3px; }
+    .intro-feature p { font-size: .88rem; margin: 0; }
+
+    .service-prev-card {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      border: 1px solid var(--gray-100);
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+    .service-prev-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 50px rgba(13,148,136,.12);
+      border-color: var(--teal-pale);
+    }
+    .service-prev-card .service-icon { margin-bottom: 18px; }
+    .service-prev-card h4 { margin-bottom: 8px; font-size: 1.05rem; }
+    .service-prev-card p { font-size: .88rem; flex: 1; }
+    .service-prev-card .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--teal);
+      font-size: .85rem;
+      font-weight: 600;
+      margin-top: 18px;
+      transition: gap var(--transition);
+    }
+    .service-prev-card:hover .card-link { gap: 10px; }
+
+    .quick-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      height: 320px;
+      display: flex;
+      align-items: flex-end;
+      cursor: pointer;
+    }
+    .quick-card img {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform .5s ease;
+    }
+    .quick-card:hover img { transform: scale(1.06); }
+    .quick-card-overlay {
+      position: relative; z-index: 2;
+      padding: 28px;
+      background: linear-gradient(to top, rgba(0,0,0,.85) 0%, rgba(0,0,0,.3) 60%, transparent 100%);
+      width: 100%; color: #fff;
+    }
+    .quick-card-overlay h3 { color: #fff; margin-bottom: 6px; }
+    .quick-card-overlay p { color: rgba(255,255,255,.8); font-size: .88rem; margin-bottom: 14px; }
+    .quick-card-overlay .btn-link { color: var(--teal-light); font-weight: 600; font-size: .88rem; display: inline-flex; align-items: center; gap: 6px; }
+
+    .doctor-card {
+      background: #fff;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      align-items: center;
+    }
+    .doctor-info { padding: 48px; }
+    .doctor-img { height: 100%; min-height: 400px; }
+    .doctor-img img { width: 100%; height: 100%; object-fit: cover; }
+    
+    @media (max-width: 1024px) {
+      .hero-float { display: none; }
+      .intro-grid { grid-template-columns: 1fr; gap: 40px; }
+      .doctor-card { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        min-height: auto;
+        align-items: flex-start;
+        padding: 130px 0 70px;
+      }
+      .hero-badge {
+        font-size: .72rem;
+        padding: 8px 14px;
+        border-radius: 14px;
+        line-height: 1.45;
+        margin-bottom: 20px;
+        max-width: 100%;
+        text-align: left;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+      .hero .hero-sub {
+        font-size: 1rem;
+        margin-bottom: 28px;
+      }
+      .hero-btns {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40px;
+      }
+      .hero-btns .btn {
+        width: 100%;
+        justify-content: center;
+        padding: 13px 24px;
+        white-space: normal;
+        text-align: center;
+      }
+      .hero-trust {
+        flex-direction: column;
+        gap: 12px;
+      }
+      .intro-badge-float { right: 8px; bottom: -16px; }
+      .doctor-card .doctor-img { min-height: 320px; }
+      .doctor-info { padding: 32px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header transparent" id="site-header" data-transparent="true">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon"><i class="fa-solid fa-tooth"></i></div>
+        <div>
+          <div class="nav-logo-text">CAVALRY <span>DENTAL</span></div>
+          <span class="nav-logo-sub">CARE & AESTHETICS</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Our Work</a>
+        <a href="office.html">Our Clinic</a>
+        <a href="testimonials.html">Reviews</a>
+      </nav>
+      <div class="nav-right">
+        <a href="https://wa.me/923140777071?text=Hello!%20I%20would%20like%20to%20book%20an%20appointment%20at%20Cavalry%20Dental%20Care." class="nav-cta btn-whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i> Book Now</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Our Work</a>
+    <a href="office.html">Our Clinic</a>
+    <a href="testimonials.html">Reviews</a>
+    <a href="https://wa.me/923140777071?text=Hello!%20I%20would%20like%20to%20book%20an%20appointment." class="nav-cta" target="_blank"><i class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content fade-in">
+        <div class="hero-badge">
+          <span class="dot"></span> Family and Cosmetic Dentistry - Lahore, Pk
+        </div>
+        <h1>Painless, Professional <span>Dental Care</span> in Lahore</h1>
+        <p class="hero-sub">At Cavalry Dental Care, we combine cutting-edge technology with compassionate care to give you the smile you deserve — comfortably and confidently.</p>
+        <div class="hero-btns">
+          <a href="https://wa.me/923140777071?text=I'd%20like%20to%20schedule%20a%20dental%20consultation" class="btn btn-primary" target="_blank"><i class="fa-brands fa-whatsapp"></i> Book an Appointment</a>
+          <a href="services.html" class="btn btn-outline" style="color: #fff; border-color: rgba(255,255,255,0.4);">Our Services <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-trust">
+          <div class="hero-trust-item"><i class="fa-solid fa-circle-check"></i> 37+ Years Experience</div>
+          <div class="hero-trust-item"><i class="fa-solid fa-circle-check"></i> Painless Treatment Guaranteed</div>
+          <div class="hero-trust-item"><i class="fa-solid fa-location-dot"></i> Cavalry Ground, Lahore</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-cue">
+      <div class="scroll-cue-line"></div>
+      SCROLL
+    </div>
+
+    <!-- Floating Stats Cards -->
+    <div class="hero-float">
+      <div class="hero-stat-card">
+        <div class="card-label">Google Rating</div>
+        <div class="card-value">4.9 ★</div>
+        <div class="card-stars">★★★★★</div>
+        <div class="card-sub">150+ Verified Reviews</div>
+      </div>
+      <div class="hero-stat-card">
+        <div class="card-label">Happy Patients</div>
+        <div class="card-value">15,000+</div>
+        <div class="card-sub">Healthy Smiles Restored</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <section class="stats-strip" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="number" data-count="37" data-suffix="+">0</div>
+          <div class="label">Years of Surgical Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="number" data-count="15" data-suffix="k+">0</div>
+          <div class="label">Satisfied Patients</div>
+        </div>
+        <div class="stat-item">
+          <div class="number" data-count="4.9" data-decimals="1">0</div>
+          <div class="stars">★★★★★</div>
+          <div class="label">Average Rating Score</div>
+        </div>
+        <div class="stat-item">
+          <div class="number" data-count="100" data-suffix="%">0</div>
+          <div class="label">Sterilisation Standard</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-img-wrap fade-in-left">
+          <img src="dr_ehsan.png" alt="Lt. Col. Dr. Ehsan Ul Haq - Cavalry Dental Care" />
+          <div class="intro-badge-float">
+            <span class="num">37+</span>
+            <span class="txt">Years Clinical Excellence</span>
+          </div>
+        </div>
+        <div class="fade-in-right">
+          <span class="section-label">Welcome to Cavalry Dental Care</span>
+          <h2 class="section-title">Your Smile is our Priority</h2>
+          <p>At Cavalry Dental Care in Cavalry Ground, Lahore, we combine decades of clinical surgical mastery with cutting-edge dental technology. Our mission is to make every dental treatment completely painless, transparent, and aesthetically rewarding.</p>
+          
+          <div class="intro-features">
+            <div class="intro-feature">
+              <div class="intro-feature-icon"><i class="fa-solid fa-tooth"></i></div>
+              <div>
+                <h4>Specialized Implantology & Aesthetics</h4>
+                <p>Permanent dental implants and custom porcelain veneers designed to match your natural facial aesthetics.</p>
+              </div>
+            </div>
+            <div class="intro-feature">
+              <div class="intro-feature-icon"><i class="fa-solid fa-shield-virus"></i></div>
+              <div>
+                <h4>Hospital-Grade Infection Control</h4>
+                <p>We enforce strict multi-stage autoclave sterilization protocols for unmatched patient hygiene & safety.</p>
+              </div>
+            </div>
+            <div class="intro-feature">
+              <div class="intro-feature-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+              <div>
+                <h4>Gentle & Painless Procedures</h4>
+                <p>Computer-guided diagnostic techniques ensure fast healing and zero-stress root canals or extractions.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="about.html" class="btn btn-primary">Learn More About Our Team</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW SECTION -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Comprehensive Treatments</span>
+        <h2 class="section-title">Tailored Dental Services for Your Whole Family</h2>
+        <p class="section-subtitle">From routine preventive care to complex full-mouth reconstructions, we offer complete dental and aesthetic solutions under one roof.</p>
+      </div>
+
+      <div class="grid-3 stagger">
+        <div class="service-prev-card fade-in">
+          <div class="service-icon"><i class="fa-solid fa-teeth"></i></div>
+          <h4>Dental Implants</h4>
+          <p>Permanent, natural-looking replacement roots and porcelain crowns crafted to restore maximum bite strength.</p>
+          <a href="services.html" class="card-link">Explore Implants <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-prev-card fade-in">
+          <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h4>Hollywood Smile Makeover</h4>
+          <p>Custom ultra-thin ceramic veneers and teeth alignment designed for a flawless, brilliant red-carpet smile.</p>
+          <a href="services.html" class="card-link">Smile Makeovers <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-prev-card fade-in">
+          <div class="service-icon"><i class="fa-solid fa-microscope"></i></div>
+          <h4>Painless Root Canal Therapy</h4>
+          <p>Save infected teeth gently using rotary endodontics and single-sitting microscope-assisted treatments.</p>
+          <a href="services.html" class="card-link">Root Canal Details <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-prev-card fade-in">
+          <div class="service-icon"><i class="fa-solid fa-teeth-open"></i></div>
+          <h4>Orthodontics & Clear Aligners</h4>
+          <p>Correct crowded teeth with invisible aligners or ceramic aesthetic braces for adults and teens.</p>
+          <a href="services.html" class="card-link">Orthodontics Options <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-prev-card fade-in">
+          <div class="service-icon"><i class="fa-solid fa-sun"></i></div>
+          <h4>Laser Teeth Whitening</h4>
+          <p>Lift stubborn discoloration by up to 8 shades in just 45 minutes using safe LED laser whitening technology.</p>
+          <a href="services.html" class="card-link">Whitening Info <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-prev-card fade-in">
+          <div class="service-icon"><i class="fa-solid fa-stethoscope"></i></div>
+          <h4>General & Aesthetic Surgery</h4>
+          <p>Crowns, bridges, wisdom tooth extractions, and facial aesthetic rejuvenation delivered with ultimate precision.</p>
+          <a href="services.html" class="card-link">General Care <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK LINKS (WORK / OFFICE / REVIEWS) -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-3">
+        <div class="quick-card fade-in" onclick="location.href='work.html'">
+          <img src="smile_makeover.png" alt="Clinical Work Showcase" />
+          <div class="quick-card-overlay">
+            <h3>Clinical Case Gallery</h3>
+            <p>View real before & after smile transformations crafted at our clinic.</p>
+            <span class="btn-link">View Portfolio <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="quick-card fade-in" onclick="location.href='office.html'">
+          <img src="clinic_interior.png" alt="Cavalry Dental Care Office" />
+          <div class="quick-card-overlay">
+            <h3>Our Modern Clinic</h3>
+            <p>Step inside our state-of-the-art facility in Cavalry Ground, Cantt Lahore.</p>
+            <span class="btn-link">Explore Clinic <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="quick-card fade-in" onclick="location.href='testimonials.html'">
+          <img src="dr_ehsan.png" alt="Patient Reviews" />
+          <div class="quick-card-overlay">
+            <h3>Patient Reviews</h3>
+            <p>Read why over 150+ patients rate us 4.9 stars on Google and oladoc.</p>
+            <span class="btn-link">Read Feedback <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTOR SNAPSHOT SECTION -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="doctor-card fade-in">
+        <div class="doctor-info">
+          <span class="section-label">Consultant Surgeons</span>
+          <h2 class="section-title">Lt. Col. Dr. Ehsan Ul Haq</h2>
+          <p style="font-weight: 600; color: var(--teal); margin-bottom: 16px;">BDS, MCPS, Dip-ENDO (Army) — Senior Consultant Dental Surgeon (37+ Yrs Exp)</p>
+          <p>Lt. Col. Dr. Ehsan Ul Haq is a revered figure in military and clinical dentistry in Pakistan. With over 37 years of surgical mastery, he has restored thousands of complex dental cases, specializing in oral rehabilitation, advanced implant surgery, and crown prosthetics.</p>
+          <p style="margin-top: 12px;">Supported by <strong>Dr. Taabir Ehsan</strong> (10+ years experience in restorative dentistry), our clinical team delivers unmatched dental excellence in Cavalry Ground.</p>
+          
+          <div style="margin-top: 28px; display: flex; gap: 16px; flex-wrap: wrap;">
+            <a href="about.html" class="btn btn-primary">Read Full Bio</a>
+            <a href="https://wa.me/923140777071?text=I'd%20like%20to%20book%20a%20consultation%20with%20Dr.%20Ehsan" class="btn btn-outline" target="_blank"><i class="fa-brands fa-whatsapp"></i> Book Doctor Consultation</a>
+          </div>
+        </div>
+        <div class="doctor-img">
+          <img src="dr_ehsan.png" alt="Lt. Col. Dr. Ehsan Ul Haq" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT STRIP -->
+  <section class="contact-strip">
+    <div class="container">
+      <div class="contact-strip-inner">
+        <div>
+          <h2>Ready for Your Healthiest, Most Confident Smile?</h2>
+          <p>Book your appointment at Cavalry Dental Care in Cavalry Ground, Lahore today.</p>
+        </div>
+        <div class="contact-strip-btns">
+          <a href="https://wa.me/923140777071?text=Hello!%20I'd%20like%20to%20book%20an%20appointment." class="btn btn-whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+          <a href="tel:+923140777071" class="btn btn-white"><i class="fa-solid fa-phone"></i> Call 0314 0777071</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon"><i class="fa-solid fa-tooth"></i></div>
+            <div>
+              <div class="nav-logo-text">CAVALRY <span>DENTAL</span></div>
+              <span class="nav-logo-sub">CARE & AESTHETICS</span>
+            </div>
+          </a>
+          <p>State-of-the-art dental clinic delivering painless dental treatments, smile transformations, implants, and digital dentistry in Cavalry Ground, Lahore.</p>
+          <div class="footer-social">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/923140777071" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <p class="footer-credit"><span class="dot"></span> Built by <a href="https://fazi-awan-portfolio.vercel.app/" target="_blank" rel="noopener">Fazi Awan <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Doctors</a></li>
+            <li><a href="services.html">Dental Services</a></li>
+            <li><a href="work.html">Case Portfolio</a></li>
+            <li><a href="office.html">Our Location</a></li>
+            <li><a href="testimonials.html">Patient Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Dental Implants</a></li>
+            <li><a href="services.html">Smile Makeovers</a></li>
+            <li><a href="services.html">Root Canal Treatment</a></li>
+            <li><a href="services.html">Teeth Whitening</a></li>
+            <li><a href="services.html">Orthodontic Braces</a></li>
+            <li><a href="services.html">Wisdom Tooth Extraction</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Clinic Hours</h4>
+          <div class="footer-hours-row"><span>Mon - Sat:</span> <span>11:00 AM - 09:00 PM</span></div>
+          <div class="footer-hours-row"><span>Sunday:</span> <span>By Appointment Only</span></div>
+          
+          <div style="margin-top: 24px;">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot icon"></i>
+              <span>Cantt Board Plaza No. 2, Jinnah Flyover Service Lane, Cavalry Ground, Lahore</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone icon"></i>
+              <span>0314 0777071</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Cavalry Dental Care. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="shared.js"></script>
+</body>
+</html>

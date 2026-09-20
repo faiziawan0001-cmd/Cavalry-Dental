@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Clinic & Location — Cavalry Dental Care Cavalry Ground Lahore</title>
+  <meta name="description" content="Visit Cavalry Dental Care at Cantt Board Plaza No. 2, Jinnah Flyover Service Lane, Cavalry Ground, Lahore. Modern sterilization, state-of-the-art dental chairs, & comfortable patient amenities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .amenities-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .amenity-card {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 24px 20px;
+      border: 1px solid var(--gray-100);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .amenity-icon {
+      width: 46px; height: 46px;
+      border-radius: 10px;
+      background: var(--teal-bg);
+      color: var(--teal);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .amenity-card h4 { font-size: .95rem; margin: 0; color: var(--gray-800); }
+
+    .location-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 36px;
+      align-items: stretch;
+    }
+
+    @media (max-width: 900px) {
+      .amenities-grid { grid-template-columns: repeat(2, 1fr); }
+      .location-layout { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 500px) {
+      .amenities-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header scrolled" id="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon"><i class="fa-solid fa-tooth"></i></div>
+        <div>
+          <div class="nav-logo-text">CAVALRY <span>DENTAL</span></div>
+          <span class="nav-logo-sub">CARE & AESTHETICS</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Our Work</a>
+        <a href="office.html" class="active">Our Clinic</a>
+        <a href="testimonials.html">Reviews</a>
+      </nav>
+      <div class="nav-right">
+        <a href="https://wa.me/923140777071?text=Hello!%20I%20would%20like%20to%20book%20an%20appointment." class="nav-cta btn-whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i> Book Now</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Our Work</a>
+    <a href="office.html" class="active">Our Clinic</a>
+    <a href="testimonials.html">Reviews</a>
+    <a href="https://wa.me/923140777071?text=Hello!%20I%20would%20like%20to%20book%20an%20appointment." class="nav-cta" target="_blank"><i class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>Our Clinic</span>
+      </div>
+      <h1>State-of-the-Art Dental Facility</h1>
+      <p>Designed for warmth, sterile clinical safety, and effortless comfort in Cavalry Ground, Lahore.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY GRID SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Clinic Environment</span>
+        <h2 class="section-title">Take a Virtual Tour of Cavalry Dental Care</h2>
+        <p class="section-subtitle">Modern treatment operatories equipped with European digital equipment.</p>
+      </div>
+
+      <div class="office-gallery fade-in">
+        <div class="office-gallery-item">
+          <img src="clinic_interior.png" alt="Main Dental Operatory Suite" />
+        </div>
+        <div class="office-gallery-item">
+          <img src="dr_ehsan.png" alt="Consultation Room" />
+        </div>
+        <div class="office-gallery-item">
+          <img src="smile_makeover.png" alt="Sterilization & Hygiene Hub" />
+        </div>
+        <div class="office-gallery-item">
+          <img src="hero_bg.png" alt="Reception & Waiting Lounge" />
+        </div>
+        <div class="office-gallery-item">
+          <img src="clinic_interior.png" alt="Digital Dental Diagnostic Area" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMENITIES SECTION -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Patient Comforts</span>
+        <h2 class="section-title">Designed For Your Convenience</h2>
+        <p class="section-subtitle">Every feature is designed to ensure a tranquil and smooth visit.</p>
+      </div>
+
+      <div class="amenities-grid stagger">
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          <h4>Multi-Stage Autoclave</h4>
+        </div>
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon"><i class="fa-solid fa-square-parking"></i></div>
+          <h4>Dedicated Plaza Parking</h4>
+        </div>
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon"><i class="fa-solid fa-snowflake"></i></div>
+          <h4>Climate Controlled</h4>
+        </div>
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon"><i class="fa-solid fa-x-ray"></i></div>
+          <h4>Digital X-Ray Diagnostic</h4>
+        </div>
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon"><i class="fa-solid fa-wifi"></i></div>
+          <h4>High-Speed Guest WiFi</h4>
+        </div>
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon"><i class="fa-solid fa-wheelchair"></i></div>
+          <h4>Elevator & Wheelchair Access</h4>
+        </div>
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon"><i class="fa-solid fa-couch"></i></div>
+          <h4>Relaxing Reception Lounge</h4>
+        </div>
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <h4>Instant WhatsApp Booking</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION & MAP SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Find Us</span>
+        <h2 class="section-title">Location & Operating Hours</h2>
+        <p class="section-subtitle">Conveniently situated in Cavalry Ground on the Jinnah Flyover service lane.</p>
+      </div>
+
+      <div class="location-layout fade-in">
+        
+        <!-- INFO SIDE -->
+        <div class="card" style="padding: 32px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+            <h3 style="margin: 0;">Clinic Details</h3>
+            <span class="open-badge">Open Today</span>
+          </div>
+
+          <div style="margin-bottom: 24px;">
+            <div style="font-weight: 600; color: var(--gray-800); margin-bottom: 4px;"><i class="fa-solid fa-location-dot" style="color: var(--teal); margin-right: 8px;"></i> Full Address</div>
+            <p style="font-size: .92rem;">Cantt Board Plaza No. 2, Jinnah Flyover (Cavalry Bridge) Service Lane, Cavalry Ground, Lahore, Punjab, Pakistan</p>
+          </div>
+
+          <div style="margin-bottom: 24px;">
+            <div style="font-weight: 600; color: var(--gray-800); margin-bottom: 8px;"><i class="fa-solid fa-clock" style="color: var(--teal); margin-right: 8px;"></i> Operating Timings</div>
+            <table class="hours-table">
+              <tr class="today">
+                <td>Monday – Saturday</td>
+                <td>11:00 AM – 09:00 PM</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Emergency / Appt Only</td>
+              </tr>
+            </table>
+          </div>
+
+          <div style="margin-bottom: 28px;">
+            <div style="font-weight: 600; color: var(--gray-800); margin-bottom: 4px;"><i class="fa-solid fa-phone" style="color: var(--teal); margin-right: 8px;"></i> Direct Helpline</div>
+            <p style="font-size: .95rem; font-weight: 600; color: var(--teal-dark);">0314 0777071</p>
+          </div>
+
+          <a href="https://www.google.com/maps/dir/?api=1&destination=31.5019115,74.3618893" class="btn btn-primary" style="width: 100%; justify-content: center;" target="_blank"><i class="fa-solid fa-diamond-turn-right"></i> Get Google Maps Directions</a>
+        </div>
+
+        <!-- GOOGLE MAP IFRAME SIDE -->
+        <div class="map-wrapper">
+          <iframe
+            title="Cavalry Dental Care Location Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.9!2d74.3618893!3d31.5019115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905ba6e16d591%3A0x41db34e599450dc8!2sCavalry%20Dental%20Care!5e0!3m2!1sen!2spk!4v1726000000000!5m2!1sen!2spk"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- AMBIENCE HIGHLIGHT CARDS -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="grid-3 stagger">
+        <div class="card" style="padding: 28px;" class="fade-in">
+          <h4 style="margin-bottom: 10px; color: var(--teal);"><i class="fa-solid fa-spa" style="margin-right: 8px;"></i> Calming Atmosphere</h4>
+          <p style="font-size: .9rem;">Soothing acoustic design, relaxing lighting, and zero chemical odors so you feel completely at ease.</p>
+        </div>
+
+        <div class="card" style="padding: 28px;" class="fade-in">
+          <h4 style="margin-bottom: 10px; color: var(--teal);"><i class="fa-solid fa-chair" style="margin-right: 8px;"></i> Ergonomic Chairs</h4>
+          <p style="font-size: .9rem;">Memory foam dental chairs with lumbar support ensure pure relaxation throughout your visit.</p>
+        </div>
+
+        <div class="card" style="padding: 28px;" class="fade-in">
+          <h4 style="margin-bottom: 10px; color: var(--teal);"><i class="fa-solid fa-user-shield" style="margin-right: 8px;"></i> Patient Privacy</h4>
+          <p style="font-size: .9rem;">Private treatment suites ensure complete doctor-patient confidentiality and personal space.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon"><i class="fa-solid fa-tooth"></i></div>
+            <div>
+              <div class="nav-logo-text">CAVALRY <span>DENTAL</span></div>
+              <span class="nav-logo-sub">CARE & AESTHETICS</span>
+            </div>
+          </a>
+          <p>State-of-the-art dental clinic delivering painless dental treatments, smile transformations, implants, and digital dentistry in Cavalry Ground, Lahore.</p>
+          <div class="footer-social">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/923140777071" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <p class="footer-credit"><span class="dot"></span> Built by <a href="https://fazi-awan-portfolio.vercel.app/" target="_blank" rel="noopener">Fazi Awan <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Doctors</a></li>
+            <li><a href="services.html">Dental Services</a></li>
+            <li><a href="work.html">Case Portfolio</a></li>
+            <li><a href="office.html">Our Location</a></li>
+            <li><a href="testimonials.html">Patient Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Dental Implants</a></li>
+            <li><a href="services.html">Smile Makeovers</a></li>
+            <li><a href="services.html">Root Canal Treatment</a></li>
+            <li><a href="services.html">Teeth Whitening</a></li>
+            <li><a href="services.html">Orthodontic Braces</a></li>
+            <li><a href="services.html">Wisdom Tooth Extraction</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Clinic Hours</h4>
+          <div class="footer-hours-row"><span>Mon - Sat:</span> <span>11:00 AM - 09:00 PM</span></div>
+          <div class="footer-hours-row"><span>Sunday:</span> <span>By Appointment Only</span></div>
+          
+          <div style="margin-top: 24px;">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot icon"></i>
+              <span>Cantt Board Plaza No. 2, Jinnah Flyover Service Lane, Cavalry Ground, Lahore</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone icon"></i>
+              <span>0314 0777071</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Cavalry Dental Care. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="shared.js"></script>
+</body>
+</html>

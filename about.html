@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Cavalry Dental Care — Lt. Col. Dr. Ehsan Ul Haq & Team | Lahore</title>
+  <meta name="description" content="Learn about Cavalry Dental Care in Cavalry Ground, Lahore. Founded by Lt. Col. Dr. Ehsan Ul Haq (37+ yrs exp) and Dr. Taabir Ehsan. Dedicated to painless, world-class dental excellence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 40px auto 0;
+      padding-left: 30px;
+      border-left: 3px solid var(--teal-pale);
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -38px; top: 4px;
+      width: 14px; height: 14px;
+      border-radius: 50%;
+      background: var(--teal);
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 3px var(--teal-pale);
+    }
+    .timeline-year {
+      font-size: .85rem; font-weight: 700; color: var(--teal);
+      text-transform: uppercase; letter-spacing: .08em; margin-bottom: 4px;
+    }
+    .timeline-title { font-size: 1.2rem; margin-bottom: 8px; }
+    .timeline-desc { font-size: .92rem; color: var(--gray-600); }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .team-card {
+      background: #fff;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--gray-100);
+      box-shadow: var(--shadow-sm);
+      text-align: center;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .team-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+    .team-img { height: 240px; overflow: hidden; background: var(--gray-100); }
+    .team-img img { width: 100%; height: 100%; object-fit: cover; }
+    .team-info { padding: 20px; }
+    .team-name { font-size: 1.05rem; margin-bottom: 4px; }
+    .team-role { font-size: .82rem; color: var(--teal); font-weight: 600; margin-bottom: 8px; }
+    .team-bio { font-size: .84rem; color: var(--gray-600); }
+
+    @media (max-width: 900px) {
+      .team-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 500px) {
+      .team-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header scrolled" id="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon"><i class="fa-solid fa-tooth"></i></div>
+        <div>
+          <div class="nav-logo-text">CAVALRY <span>DENTAL</span></div>
+          <span class="nav-logo-sub">CARE & AESTHETICS</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Our Work</a>
+        <a href="office.html">Our Clinic</a>
+        <a href="testimonials.html">Reviews</a>
+      </nav>
+      <div class="nav-right">
+        <a href="https://wa.me/923140777071?text=Hello!%20I%20would%20like%20to%20book%20an%20appointment." class="nav-cta btn-whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i> Book Now</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Our Work</a>
+    <a href="office.html">Our Clinic</a>
+    <a href="testimonials.html">Reviews</a>
+    <a href="https://wa.me/923140777071?text=Hello!%20I%20would%20like%20to%20book%20an%20appointment." class="nav-cta" target="_blank"><i class="fa-brands fa-whatsapp"></i> Book via WhatsApp</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>About Us</span>
+      </div>
+      <h1>About Cavalry Dental Care</h1>
+      <p>Decades of surgical mastery, state-of-the-art clinical innovation, and an unwavering commitment to painless patient care in Lahore.</p>
+    </div>
+  </section>
+
+  <!-- STORY SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="align-items: center;">
+        <div class="fade-in-left">
+          <span class="section-label">Our Philosophy</span>
+          <h2 class="section-title">Combining Surgical Precision With Human Compassion</h2>
+          <p>Founded by Senior Consultant Lt. Col. Dr. Ehsan Ul Haq, Cavalry Dental Care was created to raise the benchmark of dentistry in Pakistan. Situated in the heart of Cavalry Ground, Cantt Lahore, our facility offers an inviting environment where patients feel truly understood and valued.</p>
+          <p style="margin-top: 14px;">We understand that visiting the dentist can bring anxiety. That is why our clinical practice revolves around minimally invasive techniques, transparent treatment planning, and 100% pain-free protocols for every age group.</p>
+        </div>
+        <div class="fade-in-right">
+          <img src="clinic_interior.png" alt="Cavalry Dental Care Interior" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE SECTION -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Our Journey</span>
+        <h2 class="section-title">Milestones of Excellence</h2>
+        <p class="section-subtitle">Over three decades of continuous growth and clinical dedication in Lahore.</p>
+      </div>
+
+      <div class="timeline fade-in">
+        <div class="timeline-item">
+          <div class="timeline-year">1989 — Clinical Foundation</div>
+          <h3 class="timeline-title">Military Medical Service & Early Practice</h3>
+          <p class="timeline-desc">Lt. Col. Dr. Ehsan Ul Haq began his distinguished medical dental career, establishing foundational protocols in oral surgery and trauma care.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2005 — Specialized Expansion</div>
+          <h3 class="timeline-title">Advanced Implantology & Prosthetics</h3>
+          <p class="timeline-desc">Introduced specialized titanium implant therapy and computer-milled crown restorations to private clinical practice.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2018 — Modern Facility Launch</div>
+          <h3 class="timeline-title">Cavalry Ground Cantt Center</h3>
+          <p class="timeline-desc">Established our flaghip center at Cantt Board Plaza No. 2 with hospital-grade autoclave equipment and digital diagnostics.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2026 — Comprehensive Care</div>
+          <h3 class="timeline-title">Aesthetics & Multi-Specialty Dental Hub</h3>
+          <p class="timeline-desc">Welcomed Dr. Taabir Ehsan and expanded into cosmetic smile makeovers, laser whitening, and digital clear aligner therapy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Core Values</span>
+        <h2 class="section-title">What Drives Our Clinical Standard</h2>
+        <p class="section-subtitle">We hold ourselves to strict ethical and medical benchmarks for every patient encounter.</p>
+      </div>
+
+      <div class="grid-3 stagger">
+        <div class="card" style="padding: 32px;" class="fade-in">
+          <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h4>Painless Treatments</h4>
+          <p>Gentle anesthesia techniques and calm handling to make treatments stress-free.</p>
+        </div>
+        <div class="card" style="padding: 32px;" class="fade-in">
+          <div class="service-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          <h4>Strict Sterilization</h4>
+          <p>Multi-stage autoclave cycle for 100% viral and bacterial elimination.</p>
+        </div>
+        <div class="card" style="padding: 32px;" class="fade-in">
+          <div class="service-icon"><i class="fa-solid fa-handshake"></i></div>
+          <h4>Transparent Pricing</h4>
+          <p>No unexpected charges. Full cost breakdown explained prior to treatment.</p>
+        </div>
+        <div class="card" style="padding: 32px;" class="fade-in">
+          <div class="service-icon"><i class="fa-solid fa-laptop-medical"></i></div>
+          <h4>Digital Precision</h4>
+          <p>Digital X-rays and 3D modeling for accurate diagnostic root canals and implants.</p>
+        </div>
+        <div class="card" style="padding: 32px;" class="fade-in">
+          <div class="service-icon"><i class="fa-solid fa-face-smile"></i></div>
+          <h4>Patient Comfort</h4>
+          <p>Relaxing environment, friendly reception, and personalized follow-ups.</p>
+        </div>
+        <div class="card" style="padding: 32px;" class="fade-in">
+          <div class="service-icon"><i class="fa-solid fa-user-doctor"></i></div>
+          <h4>Continuous Training</h4>
+          <p>Our surgeons routinely attend international dental conventions to master new methods.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM SECTION -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Clinical Specialists</span>
+        <h2 class="section-title">Meet Our Medical Practitioners</h2>
+        <p class="section-subtitle">Dedicated dental professionals dedicated to preserving your oral health and smile beauty.</p>
+      </div>
+
+      <div class="team-grid stagger">
+        <div class="team-card fade-in">
+          <div class="team-img"><img src="dr_ehsan.png" alt="Lt. Col. Dr. Ehsan Ul Haq" /></div>
+          <div class="team-info">
+            <h3 class="team-name">Lt. Col. Dr. Ehsan Ul Haq</h3>
+            <div class="team-role">BDS, MCPS, Dip-ENDO (Army) — Senior Surgeon</div>
+            <p class="team-bio">37+ years experience in dental surgery, oral implants, and complex reconstructions.</p>
+          </div>
+        </div>
+
+        <div class="team-card fade-in">
+          <div class="team-img"><img src="dr_ehsan.png" alt="Dr. Taabir Ehsan" style="filter: hue-rotate(15deg);" /></div>
+          <div class="team-info">
+            <h3 class="team-name">Dr. Taabir Ehsan</h3>
+            <div class="team-role">BDS — Consultant Dental Surgeon</div>
+            <p class="team-bio">10+ years experience in aesthetic smile makeovers, endodontics, and braces.</p>
+          </div>
+        </div>
+
+        <div class="team-card fade-in">
+          <div class="team-img"><img src="clinic_interior.png" alt="Dr. Sarah Ahmed" /></div>
+          <div class="team-info">
+            <h3 class="team-name">Dr. Sarah Ahmed</h3>
+            <div class="team-role">BDS — Associate Endodontist</div>
+            <p class="team-bio">Specialist in single-sitting root canals and pediatric preventive dentistry.</p>
+          </div>
+        </div>
+
+        <div class="team-card fade-in">
+          <div class="team-img"><img src="smile_makeover.png" alt="Nurse Ayesha Khan" /></div>
+          <div class="team-info">
+            <h3 class="team-name">Ayesha Khan</h3>
+            <div class="team-role">Head Dental Hygienist</div>
+            <p class="team-bio">Expert in oral prophylaxis, deep ultrasonic scaling, and patient post-care.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT STRIP -->
+  <section class="contact-strip">
+    <div class="container">
+      <div class="contact-strip-inner">
+        <div>
+          <h2>Have Questions About Your Dental Health?</h2>
+          <p>Consult with Lt. Col. Dr. Ehsan Ul Haq and team today.</p>
+        </div>
+        <div class="contact-strip-btns">
+          <a href="https://wa.me/923140777071?text=Hello!%20I'd%20like%20to%20book%20a%20consultation." class="btn btn-whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+          <a href="tel:+923140777071" class="btn btn-white"><i class="fa-solid fa-phone"></i> Call 0314 0777071</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon"><i class="fa-solid fa-tooth"></i></div>
+            <div>
+              <div class="nav-logo-text">CAVALRY <span>DENTAL</span></div>
+              <span class="nav-logo-sub">CARE & AESTHETICS</span>
+            </div>
+          </a>
+          <p>State-of-the-art dental clinic delivering painless dental treatments, smile transformations, implants, and digital dentistry in Cavalry Ground, Lahore.</p>
+          <div class="footer-social">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/923140777071" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <p class="footer-credit"><span class="dot"></span> Built by <a href="https://fazi-awan-portfolio.vercel.app/" target="_blank" rel="noopener">Fazi Awan <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Doctors</a></li>
+            <li><a href="services.html">Dental Services</a></li>
+            <li><a href="work.html">Case Portfolio</a></li>
+            <li><a href="office.html">Our Location</a></li>
+            <li><a href="testimonials.html">Patient Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Dental Implants</a></li>
+            <li><a href="services.html">Smile Makeovers</a></li>
+            <li><a href="services.html">Root Canal Treatment</a></li>
+            <li><a href="services.html">Teeth Whitening</a></li>
+            <li><a href="services.html">Orthodontic Braces</a></li>
+            <li><a href="services.html">Wisdom Tooth Extraction</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Clinic Hours</h4>
+          <div class="footer-hours-row"><span>Mon - Sat:</span> <span>11:00 AM - 09:00 PM</span></div>
+          <div class="footer-hours-row"><span>Sunday:</span> <span>By Appointment Only</span></div>
+          
+          <div style="margin-top: 24px;">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot icon"></i>
+              <span>Cantt Board Plaza No. 2, Jinnah Flyover Service Lane, Cavalry Ground, Lahore</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone icon"></i>
+              <span>0314 0777071</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Cavalry Dental Care. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="shared.js"></script>
+</body>
+</html>
